@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('./fonts/Gotham-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe Caslon Pro Regular';
+  src: url('./fonts/ACaslonPro-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
