@@ -1,0 +1,17 @@
+.card {
+  width: 332px;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.title {
+  padding: 25px 0 0 0;
+  color: #4a4a4a;
+  font-family: 'Gotham Light', 'Arial', sans-serif;
+  text-transform: uppercase;
+}

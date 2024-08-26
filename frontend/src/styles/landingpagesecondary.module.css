@@ -9,32 +9,26 @@
   gap: 100px;
 }
 
-.copy {
-  width: 800px;
-  color: #4a4a4a;
-  font-family: serif;
-  text-align: center;
+.row {
   overflow: hidden;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.mainImg {
   width: 100%;
-  aspect-ratio: 5 / 4;
-  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 100px;
 }
 
-.headingSpan {
-  width: 790px;
-  text-align: center;
+.wrapper {
+  background-color: #ebebeb;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 1199px) {
-  .copy {
-    width: 500px;
-  }
-
   .container {
     width: 854px;
   }

@@ -1,6 +1,7 @@
 import styles from '../styles/landingpage.module.css';
 import carBackground from '../assets/SplashBackground.png';
-import LandingPageMain from '../sections/LandingPageMain';
+import LandingPageMain from './sections/LandingPageMain';
+import LandingPageSecondary from './sections/LandingPageSecondary';
 
 function LandingPage() {
   return (
@@ -11,6 +12,7 @@ function LandingPage() {
         alt='Car Background'
       />
       <LandingPageMain />
+      <LandingPageSecondary />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.btn {
+  padding: 12px 25px;
+  background: transparent;
+  border: 1px solid #4a4a4a;
+  color: #4a4a4a;
+  font-size: larger;
+  text-transform: uppercase;
+  font-family: 'Gotham Light', 'Arial', sans-serif;
+  transition: color 0.2s, background 0.2s;
+}
+
+.btn:hover {
+  background: #4a4a4a;
+  color: white;
+}
