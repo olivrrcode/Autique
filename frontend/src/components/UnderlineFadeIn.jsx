@@ -1,12 +1,13 @@
 import styles from '../styles/underlinefadein.module.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function UnderlineFadeIn({ text, href }) {
   return (
-    <a
+    <Link
       className={styles.text}
-      href={href}>
+      to={href}>
       {text}
-    </a>
+    </Link>
   );
 }
 

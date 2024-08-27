@@ -7,8 +7,8 @@ function LandingPageMain() {
   return (
     <div className={styles.container}>
       <h1 className={styles.copy}>
-        Welcome to the world of antique motors on Autique. Where the cars of the
-        yesterday can be yours tomorrow. Where your future lies in the past.
+        Welcome to the world of antique motors on Autique. <br />
+        Where the cars of the yesterday can be yours tomorrow.
       </h1>
 
       <img

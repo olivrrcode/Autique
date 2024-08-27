@@ -1,16 +1,12 @@
 import styles from '../styles/landingpage.module.css';
-import carBackground from '../assets/SplashBackground.png';
 import LandingPageMain from './sections/LandingPageMain';
 import LandingPageSecondary from './sections/LandingPageSecondary';
+import SplashImage from './sections/SplashImage';
 
 function LandingPage() {
   return (
     <div className={styles.container}>
-      <img
-        className={styles.splashImage}
-        src={carBackground}
-        alt='Car Background'
-      />
+      <SplashImage />
       <LandingPageMain />
       <LandingPageSecondary />
     </div>
