@@ -6,6 +6,8 @@
     "start": "concurrently \"npm:start-frontend\" \"npm:start-backend\"",
     "start-frontend": "cd frontend && npm run start",
     "start-backend": "cd backend && npm run start",
+    "deps": "npm i && cd frontend && npm i && cd ../backend && npm i",
+    "clean": "rm -rf package-lock.json node_modules && cd frontend && rm -rf package-lock.json node_modules && cd ../backend && rm -rf package-lock.json node_modules",
     "test": ""
   },
   "keywords": [],
