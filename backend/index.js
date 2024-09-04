@@ -5,6 +5,7 @@ import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
 import mongoose from "mongoose";
+import authRoutes from "./routes/auth.js";
 
 // Initialize Express app
 const app = express();
@@ -16,6 +17,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*" }));
 app.use(helmet());
 app.use(morgan("common"));
+
+// Routes
+app.use("/auth", authRoutes);
 
 // MongoDB connection
 mongoose
