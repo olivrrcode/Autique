@@ -1,10 +1,10 @@
 // Import dependencies
-const dotenv = require("dotenv");
-const express = require("express");
-const cors = require("cors");
-const helmet = require("helmet");
-const morgan = require("morgan");
-const mongoose = require("mongoose");
+import dotenv from "dotenv";
+import express from "express";
+import cors from "cors";
+import helmet from "helmet";
+import morgan from "morgan";
+import mongoose from "mongoose";
 
 // Initialize Express app
 const app = express();
@@ -16,11 +16,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*" }));
 app.use(helmet());
 app.use(morgan("common"));
-
-//TODO: create backend routes
-app.get("/", (req, res) => {
-  res.send("Hello, World!");
-});
 
 // MongoDB connection
 mongoose
