@@ -1,7 +1,7 @@
-import styles from '../styles/landingpage.module.css';
-import LandingPageMain from './sections/LandingPageMain';
-import LandingPageSecondary from './sections/LandingPageSecondary';
-import SplashImage from './sections/SplashImage';
+import styles from "../styles/landingpage.module.css";
+import LandingPageMain from "./sections/LandingPageMain";
+import LandingPageSecondary from "./sections/LandingPageSecondary";
+import SplashImage from "./sections/SplashImage";
 
 function LandingPage() {
   return (

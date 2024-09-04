@@ -19,12 +19,17 @@ app.use(morgan("common"));
 
 //TODO: create backend routes
 
+// MongoDB connection
 mongoose
-  .connect(process.env.MONGODB_URI)
+  .connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err.message));
 
-const PORT = process.env.PORT;
+// Set the server to listen on a port
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
