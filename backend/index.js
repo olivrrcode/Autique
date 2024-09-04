@@ -18,6 +18,9 @@ app.use(helmet());
 app.use(morgan("common"));
 
 //TODO: create backend routes
+app.get("/", (req, res) => {
+  res.send("Hello, World!");
+});
 
 // MongoDB connection
 mongoose
