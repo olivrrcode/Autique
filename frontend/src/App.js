@@ -1,4 +1,4 @@
-import "./axiosConfig";
+import "./configs/axiosConfig";
 import Layout from "./layout/Layout";
 import Buy from "./pages/Buy";
 import LandingPage from "./pages/LandingPage";

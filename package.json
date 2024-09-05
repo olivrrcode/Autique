@@ -18,6 +18,9 @@
     "concurrently": "^8.2.2"
   },
   "dependencies": {
-    "jsonwebtoken": "^9.0.2"
+    "@reduxjs/toolkit": "^2.2.7",
+    "jsonwebtoken": "^9.0.2",
+    "react-redux": "^9.1.2",
+    "redux-persist": "^6.0.0"
   }
 }
